@@ -41,7 +41,7 @@ jobs:
         echo "gke delete: $GKE_DELETE"
         
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Setup gcloud CLI
       uses: google-github-actions/setup-gcloud@v2.1.0
